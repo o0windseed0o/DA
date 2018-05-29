@@ -1,0 +1,15 @@
+python3 da_imbalance_train.py --num_classes 2 \
+								--learning_rate 0.005 \
+								--batch_size 32 \
+								--num_epochs 10000 \
+								--ckpt_dir './checkpoint/fold2/' \
+								--sequence_length 128 \
+								--icd_length 32 \
+								--med_length 32 \
+								--icd_embed_size 50 \
+								--med_embed_size 50 \
+							    --visit_encode_size 50 \
+								--hidden_size 50 \
+								--training_path '../corpus/weak1/6_18_nongroup/fold/patient_dataset.fold2' \
+								--dict_path '../corpus/weak1/6_18_nongroup/dict.pkl' \
+								--prediction_path './evaluation/'

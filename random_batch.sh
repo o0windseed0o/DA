@@ -10,6 +10,6 @@ python3 da_imbalance_train.py --num_classes 2 \
 								--med_embed_size 50 \
 							    --visit_encode_size 50 \
 								--hidden_size 50 \
-								--training_path '../corpus/weak1/6_18_nongroup/fold/patient_dataset.fold2' \
-								--dict_path '../corpus/weak1/6_18_nongroup/dict.pkl' \
+								--training_path './path_of_your_data' \
+								--dict_path './path_of_your_dict' \
 								--prediction_path './evaluation/'
